@@ -48,6 +48,7 @@ public interface ConfigurableApplicationContext extends ApplicationContext, Life
 	 * @see org.springframework.context.support.AbstractXmlApplicationContext#setConfigLocation
 	 * @see org.springframework.web.context.ContextLoader#CONFIG_LOCATION_PARAM
 	 * @see org.springframework.web.servlet.FrameworkServlet#setContextConfigLocation
+	 * \t表示空四个字符，也称缩进，相当于按一下Tab键。\n表示换行，相当于按一下回车
 	 */
 	String CONFIG_LOCATION_DELIMITERS = ",; \t\n";
 

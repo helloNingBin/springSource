@@ -139,6 +139,7 @@ public class ClassPathXmlApplicationContext extends AbstractXmlApplicationContex
 			throws BeansException {
 
 		super(parent);
+		//调用的是这个父类的方法AbstractRefreshableConfigApplicationContext
 		setConfigLocations(configLocations);
 		if (refresh) {
 			//重启、刷新、重置

@@ -143,6 +143,9 @@ public class ClassPathXmlApplicationContext extends AbstractXmlApplicationContex
 		setConfigLocations(configLocations);
 		if (refresh) {
 			//重启、刷新、重置
+			/**
+			 * 在创建IOC容器前，如果已经有容器存在，则需要把已有的容器销毁和关闭，以保证在refresh之后使用的是新建立起来的IOC容器。
+			 */
 			refresh();
 		}
 	}

@@ -1049,7 +1049,7 @@ public abstract class StringUtils {
 	 * delimiters, consider using {@link #delimitedListToStringArray}.
 	 * @param str the {@code String} to tokenize
 	 * @param delimiters the delimiter characters, assembled as a {@code String}
-	 * (each of the characters is individually considered as a delimiter)
+	 * (each of the characters is individually considered as a delimiter) 分隔符，被作为一个组合的字符串（每一个字符都单独地被作为一个分隔符）
 	 * @return an array of the tokens
 	 * @see java.util.StringTokenizer
 	 * @see String#trim()
@@ -1060,7 +1060,7 @@ public abstract class StringUtils {
 	}
 
 	/**
-	 * Tokenize the given {@code String} into a {@code String} array via a
+	 * Tokenize（处理、令牌化） the given {@code String} into a {@code String} array via a
 	 * {@link StringTokenizer}.
 	 * <p>The given {@code delimiters} string can consist of any number of
 	 * delimiter characters. Each of those characters can be used to separate
